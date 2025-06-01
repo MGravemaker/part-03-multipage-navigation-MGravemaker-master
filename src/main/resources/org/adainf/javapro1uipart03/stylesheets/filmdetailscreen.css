@@ -1,0 +1,100 @@
+#sidebar {
+    -fx-background-color: #1A1C20;
+    -fx-min-width: 50px;
+    -fx-max-width: 50px;
+    -fx-pref-width: 50px;
+}
+
+#arrow-box {
+    -fx-background-color: #F83646;
+    -fx-pref-width: 50px;
+    -fx-pref-height: 40px;  /* Same as #header */
+    -fx-alignment: center;
+    -fx-cursor: hand;
+    -fx-padding: 0;
+}
+
+#back-arrow {
+    -fx-cursor: hand;
+}
+
+#header {
+    -fx-background-color: #FF4350;
+    -fx-pref-height: 40px;
+    -fx-min-height: 40px;
+    -fx-max-height: 40px;
+}
+
+#header-title-pane {
+    -fx-background-color: transparent;
+}
+
+#container {
+    -fx-background-color: #222A31;
+}
+
+#main-content {
+    -fx-padding: 44 0 0 44;
+    -fx-spacing: 40;
+    -fx-alignment: TOP_LEFT;
+}
+
+#film-poster {
+    -fx-effect: dropshadow(gaussian, rgba(30,30,30,0.4), 18,0.2,0,2);
+    -fx-background-radius: 8;
+}
+
+#info-section {
+    -fx-spacing: 16;
+}
+
+#film-title {
+    -fx-font-size: 34px;
+    -fx-fill: white;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: 700;
+}
+
+#film-subinfo {
+    -fx-font-size: 23px;    /* 1.25x bigger than original 18px */
+    -fx-fill: #BFC6CE;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: 400;
+}
+
+#scores-row {
+    -fx-spacing: 32;
+    -fx-padding: 0 0 0 0;
+}
+
+.film-score-value {
+    -fx-font-size: 33px;    /* 1.25x bigger than original 26px */
+    -fx-fill: #FF4350;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: 700;
+}
+.film-score-label {
+    -fx-font-size: 16px;    /* 1.25x bigger than original 13px */
+    -fx-fill: #7d848b;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: 400;
+}
+
+#film-plot {
+    -fx-font-size: 16px;
+    -fx-fill: white;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: 400;
+}
+
+#view-online-btn {
+    -fx-background-color: #FF4350;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: 700;
+    -fx-background-radius: 24;
+    -fx-padding: 8 38 8 38;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.09), 10,0,0,1);
+    -fx-margin: 16 0 0 0;
+}

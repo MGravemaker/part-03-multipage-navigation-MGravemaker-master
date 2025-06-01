@@ -1,0 +1,52 @@
+
+#container {
+    -fx-background-color: #222A31;
+}
+
+#header {
+    -fx-background-color: #FF4350;
+}
+
+#header#title-pane {
+    -fx-background-color: #F83646;
+}
+
+#header#title-pane Text {
+    -fx-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: 900;
+}
+
+#header TextField {
+    -fx-background-color: #FF4350;
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: 300;
+}
+
+#navbar {
+    -fx-background-color: #1A1C20;
+}
+
+#film-section Text {
+    -fx-font-size: 25px;
+    -fx-fill: white;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: 700;
+}
+
+#film-title {
+    -fx-font-size: 11px;
+    -fx-fill: white;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: bold;
+}
+
+#film-release-date {
+    -fx-font-size: 10px;
+    -fx-fill: white;
+    -fx-font-family: 'Montserrat';
+    -fx-font-weight: lighter;
+}
